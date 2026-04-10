@@ -1,0 +1,25 @@
+{
+  "name": "minimalissimo-about-page-clone-p4t0110",
+  "version": "1.0.0",
+  "description": "Your task is to replicate the [Minimalissimo/about](https://minimalissimo.com/suggest) site (using `FLEXBOX`, `GRID` and `responsive design`).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/minimalissimo-about-page-clone-p4t0110.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/minimalissimo-about-page-clone-p4t0110/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/minimalissimo-about-page-clone-p4t0110#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

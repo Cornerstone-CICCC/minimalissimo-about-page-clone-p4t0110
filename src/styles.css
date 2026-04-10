@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.menu-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-item {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.menu-item:hover {
+  background: #fff;
+  color: #000;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 4rem 0;
+  letter-spacing: 1px;
+}
+
+.newsletter {
+  max-width: 500px;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+}
+
+.label {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.email-input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.subscribe-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+.subscribe-btn:hover {
+  opacity: 0.7;
+}
+
+.sponsor {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+a,
+a:visited,
+a:active,
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background: #fff;
+  color: #000;
+}
